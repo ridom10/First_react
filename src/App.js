@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NameForm from './NameForm.js'
+import ButtonZ from './components/buttonz';
 function App() {
   return (
     <div className="App">
@@ -11,10 +12,10 @@ function App() {
           First Website Gang Gang
         </p>
 	  <NameForm/>
-        <a
-        >
+        <p>
           Let'z begin
-        </a>
+        </p>
+        <ButtonZ/>
       </header>
     </div>
   );
