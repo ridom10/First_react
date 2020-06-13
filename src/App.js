@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ButtonZ from './components/buttonz';
+
 
 function App() {
   return (
@@ -10,11 +12,12 @@ function App() {
         <p>
           First Website Gang Gang
         </p>
-        <a
-        >
+        <p>
           Let'z begin
-        </a>
+        </p>
+        <ButtonZ/>
       </header>
+      
     </div>
   );
 }
