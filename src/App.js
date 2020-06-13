@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import NameForm from './NameForm.js'
 function App() {
   return (
     <div className="App">
@@ -10,6 +10,7 @@ function App() {
         <p>
           First Website Gang Gang
         </p>
+	  <NameForm/>
         <a
         >
           Let'z begin
